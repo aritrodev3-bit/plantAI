@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 VerdantAI
+# 🌿 PlantAI
 
 **AI-powered plant disease diagnostics — from leaf image to treatment plan in seconds.**
 
@@ -21,7 +21,7 @@
 
 ## 📌 Overview
 
-VerdantAI is a full-stack, AI-driven plant diagnostics platform. Upload a leaf photo and receive an instant disease diagnosis backed by a fine-tuned **EfficientNet-B0** model trained on the **PlantVillage dataset** (38 classes, 54,000+ images).
+PlantAI is a full-stack, AI-driven plant diagnostics platform. Upload a leaf photo and receive an instant disease diagnosis backed by a fine-tuned **EfficientNet-B0** model trained on the **PlantVillage dataset** (38 classes, 54,000+ images).
 
 Beyond a raw prediction, VerdantAI explains *why* it made that call (GradCAM heatmaps), tells you *what to do about it* (LLM-generated treatment guides via OpenRouter), and keeps a personal history of every scan — exportable as a polished PDF report.
 
