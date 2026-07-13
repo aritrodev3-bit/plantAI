@@ -1,0 +1,42 @@
+# Python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pth
+.venv/
+venv/
+
+# Model file (allow fixed model for GitHub upload)
+backend/plant_disease_model.pth
+!backend/plant_disease_model_fixed.pth
+
+# Database
+backend/users.db
+frontend/scans.db
+frontend/scans.db-shm
+frontend/scans.db-wal
+
+# Environment variables
+.env
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+minor-project.ipynb
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+auth/users.db
+auth/users.db-shm
+auth/users.db-wal
+__pycache__/
+*.pyc
+*.err
+*.out
+.streamlit/
+frontend/.streamlit/
+
